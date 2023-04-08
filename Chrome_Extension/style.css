@@ -1,0 +1,48 @@
+.my-form {
+    padding: 15px;
+    margin: 0;
+    min-width: 500px;
+}
+
+.my-form .form-group{
+    padding-bottom: 20px;
+}
+
+
+.my-form input[type="text"]{
+    width: 100%;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+#input-btn,
+#save-btn {
+    background-color: seagreen;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    font: bold 16px Arial, Helvetica;
+}
+
+#delete-btn {
+    background-color: #fff;
+    color: seagreen;
+    padding: 15px 20px;
+    border: 1px solid seagreen;
+    font: bold 16px Arial, Helvetica;
+}
+
+
+.my-form .form-group a{
+    font: 16px Arial, Helvetica;
+    color: seagreen;
+}
+
+.my-form .form-group ul{
+    list-style: none;
+    padding: 0;
+}
+
+.my-form .form-group li{
+    margin-top: 5px;
+}
